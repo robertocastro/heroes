@@ -1,0 +1,77 @@
+@media screen and (max-width: 375px) {
+  body {
+    background: #e8e8f0;
+  }
+
+  header {
+    background: #514d6c;
+    position: absolute;
+    width: 375px;
+    height: 62px;
+    left: 0px;
+    top: 0px;
+  }
+}
+h1 {
+  color: #e8e8f0;
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  left: 13px;
+  top: 24px;
+  margin: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  position: absolute;
+  width: 375px;
+  height: 22px;
+  left: 0px;
+  top: 105px;
+  margin: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+button {
+  position: absolute;
+  width: 171px;
+  height: 61px;
+  left: 102px;
+  top: 171px;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  background: #8ce0ec;
+  /* Shadow1 */
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+button p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 18px 28px 19px 29px;
+  color: #000000;
+}
