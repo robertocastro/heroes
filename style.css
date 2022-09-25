@@ -1,14 +1,13 @@
-@media screen and (max-width: 375px) {
-  body {
-    background: #e8e8f0;
-    font-family: "Inter";
-  }
-
-  header {
-    background: #514d6c;
-    height: 62px;
-  }
+body {
+  background: #e8e8f0;
+  font-family: "Arial";
 }
+
+header {
+  background: #514d6c;
+  height: 62px;
+}
+
 h1 {
   color: #e8e8f0;
   padding: 24px 0px 0px 13px;
@@ -20,7 +19,7 @@ h2 {
   text-align: center;
 }
 
-button {
+button.primary-action {
   display: block;
   margin: 44px auto 0 auto;
   width: 171px;
@@ -31,3 +30,49 @@ button {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
 }
+
+#caracteristiques {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 12px;
+}
+
+#caracteristiques > div.action-box-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 1px solid #514d6c;
+  border-radius: 5px;
+}
+
+#caracteristiques > div.action-box-wrapper > div {
+  text-align: center
+}
+
+#caracteristiques > div.action-box-wrapper > div.carac-box > div,
+#caracteristiques > div.action-box-wrapper > div.action-box > div {
+  padding: 5px;
+}
+
+#caracteristiques > div.action-box-wrapper > div.carac-box > div.carac-box-value,
+#caracteristiques > div.action-box-wrapper > div.action-box > div.action-box-value {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#caracteristiques > div.action-box-wrapper > div.carac-box {
+  width: 50%;
+}
+
+#caracteristiques > div.action-box-wrapper > div.action-box {
+  width: 100%;
+}
+
+#caracteristiques > div.action-box-wrapper > div.carac-box > div.carac-box-title,
+#caracteristiques > div.action-box-wrapper > div.action-box > div.action-box-title {
+  color: #fff;
+  background: #514d6c;
+}
+
+
